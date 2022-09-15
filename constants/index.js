@@ -14,7 +14,13 @@ const STATUS_CODES = {
     CREATED: 201
 }
 
+const BASE_URL = {
+    POST_CODE: 'https://postcodes.io',
+    GOOGLE: 'https://maps.googleapis.com'
+}
+
 module.exports = {
     HTTP_REQUEST_METHODS,
-    STATUS_CODES
+    STATUS_CODES,
+    BASE_URL
 }
